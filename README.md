@@ -31,13 +31,16 @@ Follow the steps below to get the project up and running on your local machine:
 ```bash
 git clone https://github.com/Muskan2320/Monthly-challenge-using-django.git
 cd Monthly-challenge-using-django
+```
 
 ### 2. Install Django
 
 ```bash
 pip install django
+```
 
 ### 3. Run the Django Development Server
 
 ```bash
 python manage.py runserver
+```
