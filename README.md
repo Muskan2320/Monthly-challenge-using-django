@@ -1,51 +1,43 @@
-🗓️ Monthly Challenge - Django Practice Project
-This is a beginner-friendly Django project built for learning and practicing the fundamentals of Django — like URL routing, views, templates, and app structure.
+# 🗓️ Monthly Challenge – Django Practice Project
 
-🚀 Features
-View monthly challenges by name or number (e.g., /january or /1)
+This is a beginner-friendly Django project created just for learning and practicing the basics of Django. It demonstrates how to use URL routing, dynamic views, and basic HTML templates.
 
-Simple HTML-based responses using templates
+---
 
-URL parameter handling
+## 📌 Project Purpose
 
-Practice of Django views, URL dispatcher, and dynamic routing
+The goal of this project is to:
 
-🛠️ Tech Stack
-Python 3.x
+- Understand Django's project and app structure.
+- Practice working with views, URL routing (including dynamic URLs), and HTML templates.
+- Build a small, clean, working project without using a database — great for absolute beginners.
 
-Django 5.x (or the version you used)
+---
 
-HTML (for basic template rendering)
+## 🛠️ Tech Stack
 
-📦 How to Run This Project
-Follow these steps to run the project locally:
+- **Backend**: Django (Python)
+- **Frontend**: Basic HTML (Django templates)
+- **Tools**: Python 3.x, Django 5.x (or compatible)
 
-1. Clone the repository
-bash
-Copy
-Edit
+---
+
+## 🚀 How to Run This Project Locally
+
+Follow the steps below to get the project up and running on your local machine:
+
+### 1. Clone the Repository
+
+```bash
 git clone https://github.com/Muskan2320/Monthly-challenge-using-django.git
 cd Monthly-challenge-using-django
-2. Create and activate a virtual environment
-bash
-Copy
-Edit
-# Create venv
-python -m venv env
 
-# Activate it
-# On Windows:
-env\Scripts\activate
+### 2. Install Django
 
-# On macOS/Linux:
-source env/bin/activate
-3. Install dependencies
-bash
-Copy
-Edit
+```bash
 pip install django
-4. Run the Django development server
-bash
-Copy
-Edit
+
+### 3. Run the Django Development Server
+
+```bash
 python manage.py runserver
